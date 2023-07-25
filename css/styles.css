@@ -1,107 +1,104 @@
-* {
-    padding: 0 100px;
-}
-
 body {
-    margin: 0;
+  margin: 0;
+  padding: 0 100px;
 }
 
 p {
-    font-size: 2em;
+  font-size: 1.5em;
 }
 
 header {
-    display: grid;
-    justify-content: center;
-    background-color: green;
-    color: white;
+  display: grid;
+  justify-content: center;
+  background-color: green;
+  color: white;
 }
 
 .page-title {
-    text-align: center;
-    font-size: 3.5em;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-descripton {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    overflow: hidden;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 nav .left-side {
-    padding: 0;
+  padding: 0;
 }
 
 nav .right-side {
-    padding: 0;
+  padding: 0;
 }
 
 nav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 2em;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
 }
- 
+
 nav a:hover {
-    background-color: #fff;
-    color: black;
+  background-color: #fff;
+  color: black;
 }
- 
+
 nav a.active {
-    background-color: grey;
-    color: white;
+  background-color: grey;
+  color: white;
 }
 
 .body-page {
-    width: 100%;
-    padding: 0;
-    display: flex;
+  width: 100%;
+  padding: 0;
+  display: flex;
 }
 
 .body-left {
-    width: 80%;
-    padding: 0;
-    background-color: purple;
-    color: white;
+  width: 80%;
+  padding: 0;
+  background-color: purple;
+  color: white;
 }
 
 .left-content {
-    padding: 0;
+  padding: 0 30px;
 }
 
 .body-right {
-    width: 20%;
-    padding: 0;
-    background-color: orange;
+  width: 20%;
+  padding: 0;
+  background-color: orange;
 }
 
 .right-content {
-    padding: 0;
+  padding: 0 20px;
 }
 
 .recent-blog {
-    padding: 0;
+  padding: 0 20px;
 }
 
 .follow-blog {
-    padding: 0;
-    margin-top: 900px;
+  padding: 0 20px;
+  margin-top: 1000px;
 }
 
 footer {
-    height: 70px;
-    font-size: 2em;
-    color: white;
-    text-align: center;
-    background-color: rgb(77, 108, 247);
+  height: 70px;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  background-color: rgb(77, 108, 247);
 }
